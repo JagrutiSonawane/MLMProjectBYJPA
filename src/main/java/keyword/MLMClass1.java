@@ -1,4 +1,4 @@
-package Module1;
+package keyword;
 
 public class MLMClass1 {
 
