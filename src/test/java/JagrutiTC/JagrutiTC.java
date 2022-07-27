@@ -1,6 +1,6 @@
 package JagrutiTC;
 
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import keyword.UIKeyword;
