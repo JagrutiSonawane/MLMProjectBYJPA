@@ -49,4 +49,9 @@ public class UIKeyword {
    public static void click(String b) {
 	   driver.findElement(By.xpath(b)).click();
    }
+   public static String getUrl() {
+	   String s=driver.getCurrentUrl();
+	   return s;
 }
+}
+
