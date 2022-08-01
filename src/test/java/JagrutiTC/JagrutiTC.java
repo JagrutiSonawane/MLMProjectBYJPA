@@ -1,5 +1,7 @@
 package JagrutiTC;
 
+import java.util.ResourceBundle;
+
 //import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
@@ -12,8 +14,13 @@ public class JagrutiTC {
 public void clickOnMainDiamondProduct() throws Exception {
 	
 UIKeyword.openBrowser("chrome");
-UIKeyword.launchUrl("https://mlmproductsupply.com/");
-UIKeyword.click("(//a[@class='item-link'])[5]");
+ResourceBundle rb1 =ResourceBundle.getBundle("JResource");
+String webUrl=rb1.getString("Url");
+
+UIKeyword.launchUrl(webUrl);
+ResourceBundle rb =ResourceBundle.getBundle("MLM");
+String ItemClick=rb.getString("Diamond_Main_Xpath");
+UIKeyword.click(ItemClick);
 Thread.sleep(3000);
 s=UIKeyword.getUrl();
 UIKeyword.closeBrowser();
