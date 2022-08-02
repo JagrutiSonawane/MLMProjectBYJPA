@@ -6,7 +6,6 @@
       <class name="JagrutiTC.JagrutiTC">
         <methods>
           <include name="clickOnMainDiamondProduct"/>
-          <include name="clickOnNeedDiamondProduct"/>
         </methods>
       </class> <!-- JagrutiTC.JagrutiTC -->
     </classes>
