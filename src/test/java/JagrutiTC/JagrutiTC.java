@@ -12,11 +12,9 @@ public class JagrutiTC {
 
 @Test
 public void clickOnMainDiamondProduct() throws Exception {
-	
 UIKeyword.openBrowser("chrome");
 ResourceBundle rb1 =ResourceBundle.getBundle("JResource");
 String webUrl=rb1.getString("Url");
-
 UIKeyword.launchUrl(webUrl);
 ResourceBundle rb =ResourceBundle.getBundle("MLM");
 String ItemClick=rb.getString("Diamond_Main_Xpath");
