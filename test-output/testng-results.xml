@@ -2,6 +2,7 @@
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2022-08-02T17:32:36 IST" name="Default suite" finished-at="2022-08-02T17:33:08 IST" duration-ms="31557">
     <groups>
     </groups>
@@ -12,6 +13,18 @@
           </reporter-output>
         </test-method> <!-- allCategories -->
       </class> <!-- yogitaTC.TestCases -->
+=======
+  <suite started-at="2022-08-01T15:29:11 IST" name="Default suite" finished-at="2022-08-01T15:29:28 IST" duration-ms="16784">
+    <groups>
+    </groups>
+    <test started-at="2022-08-01T15:29:11 IST" name="Default test" finished-at="2022-08-01T15:29:28 IST" duration-ms="16784">
+      <class name="JagrutiTC.JagrutiTC">
+        <test-method signature="clickOnMainDiamondProduct()[pri:0, instance:JagrutiTC.JagrutiTC@428640fa]" started-at="2022-08-01T15:29:11 IST" name="clickOnMainDiamondProduct" finished-at="2022-08-01T15:29:28 IST" duration-ms="16732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMainDiamondProduct -->
+      </class> <!-- JagrutiTC.JagrutiTC -->
+>>>>>>> 7ce3f2bdfcfcf18d5a31f20239a8feee956abfce
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

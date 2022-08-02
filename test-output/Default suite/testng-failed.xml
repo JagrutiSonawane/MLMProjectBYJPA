@@ -5,7 +5,11 @@
     <classes>
       <class name="yogitaTC.TestCases">
         <methods>
+<<<<<<< HEAD
           <include name="allCategories"/>
+=======
+          <include name="clickOnMainDiamondProduct"/>
+>>>>>>> 7ce3f2bdfcfcf18d5a31f20239a8feee956abfce
         </methods>
       </class> <!-- yogitaTC.TestCases -->
     </classes>
