@@ -3,11 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JagrutiTC.JagrutiTC">
+      <class name="yogitaTC.TestCases">
         <methods>
+<<<<<<< HEAD
+          <include name="allCategories"/>
+=======
           <include name="clickOnMainDiamondProduct"/>
+<<<<<<< HEAD
+=======
+>>>>>>> 7ce3f2bdfcfcf18d5a31f20239a8feee956abfce
+>>>>>>> a0273e042d4aeff6f42db640aba078fe1ddb384d
         </methods>
-      </class> <!-- JagrutiTC.JagrutiTC -->
+      </class> <!-- yogitaTC.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,10 @@
 package keyword;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -49,9 +53,29 @@ public class UIKeyword {
    public static void click(String b) {
 	   driver.findElement(By.xpath(b)).click();
    }
+   
+   public static void click(By cssSelect) {
+  driver.findElement(cssSelect).click();	
+
+}
    public static String getUrl() {
 	   String s=driver.getCurrentUrl();
 	   return s;
 }
+   public static boolean isdisplayed(By element) {
+	boolean t=driver.findElement(element).isDisplayed();
+ return t;
+}
+
+public static List<String> Elements(By xpath) {
+	List<WebElement> elements= driver.findElements(xpath);
+	List<String> elemnts = new ArrayList();
+	for (WebElement ele : elements) {
+		 elemnts.add(ele.getText());
+	}
+	return  elemnts;
+}
+
+
 }
 
